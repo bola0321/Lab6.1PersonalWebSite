@@ -1,0 +1,179 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top,#faf4ed 80%, #f2dec4), url(https://img.freepik.com/free-vector/hand-drawn-minimal-background_23-2149001650.jpg?t=st=1656535854~exp=1656536454~hmac=02ecf46ca7be9614c03ddb5e9d2a756d52fb69bcbb498f7f005430f6904a9216&w=740);    
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+
+
+}
+
+
+.navbar{
+    width: 850px;
+    height: 75px;
+    flex:0;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: rgb(0, 74, 48);
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px ;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: right;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ ul li a {
+    text-decoration: none;
+    color: rgb(63, 55, 55);
+    font-family:Arial ;
+    font-weight: bolder;
+    transition: 0.1s ease-in-out;
+ }
+
+ ul li a:hover{
+    color: rgb(89, 199, 89);
+ }
+
+ .content, .content2, .content3{
+    width: 300px;
+    height: auto;
+    margin:auto;
+    color: black;
+    position:relative;
+    padding-bottom: 2Spx;
+   
+ }
+
+ .content1 .para1 .para2 .para3{
+    padding-right: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+    
+ }
+
+ .content h1, .content2 h1, .content3 h1{
+    color: rgb(13, 71, 37);
+    font-family:Georgia;
+    padding-left: 20px;
+    margin: top 10px;
+    letter-spacing: 2px;
+
+ }
+
+ .content span,.content2 span,.content3 span{
+    color: rgb(15, 143, 119);
+    font-size: 15px;
+ }
+
+.footer{
+    background: #073d2a;
+    height: auto;
+    font-family: 'Lucida Sans';
+    padding-top: 40px;
+    color: aquamarine;
+    flex:0;
+    text-align: center;
+
+
+
+ }
+ .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+ }
+ 
+
+ .footer-content h4{
+    font-size: 13px ;
+    font-weight: bold;
+    text-align: center;
+ }
+
+ .aboutcontent{
+    margin-top: 20px;
+ }
+
+ .aboutcontent, .contentcontainer, .portcontainer{
+    flex:1;
+ }
+
+.contentcontainer, .portcontainer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+ 
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical /
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .aboutform {
+    border-radius: 5px;
+    background-color: to top,#faf4ed 80%, #f2dec4;
+    padding: 20px;
+  }
+
+.portcontainer h1:hover{
+    background-color: aquamarine;
+}
